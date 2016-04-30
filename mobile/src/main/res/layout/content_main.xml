@@ -27,14 +27,16 @@
             android:layout_height="wrap_content"
             android:text="Train App"
             android:id="@+id/button"
-            android:layout_weight="0.15" />
+            android:layout_weight="0.15"
+            android:onClick="openTraining"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="New Practice Session"
             android:id="@+id/button2"
-            android:layout_weight="0.15" />
+            android:layout_weight="0.15"
+            android:onClick="newPracticeSession"/>
 
         <Button
             android:layout_width="match_parent"
