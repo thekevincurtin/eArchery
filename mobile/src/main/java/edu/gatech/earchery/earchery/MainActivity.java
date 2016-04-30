@@ -26,6 +26,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, PracticeSession.class);
         startActivity(intent);
     }
+    public void openStatistics(View view){
+        Intent intent = new Intent(this, Statistics.class);
+        startActivity(intent);
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

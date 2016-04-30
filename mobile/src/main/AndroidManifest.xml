@@ -20,11 +20,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".InitialTraining"
+        <activity android:name=".InitialTraining"
             android:label="@string/title_activity_initial_training"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".PracticeSession"></activity>
+        <activity android:name=".PracticeSession"
+            android:label="@string/title_activity_practice_session"/>
+        <activity android:name=".Statistics"
+            android:label="@string/title_activity_statistics"/>
     </application>
 
 </manifest>

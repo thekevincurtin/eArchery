@@ -41,8 +41,9 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Analysis"
+            android:text="Statistics"
             android:id="@+id/button3"
-            android:layout_weight="0.15" />
+            android:layout_weight="0.15"
+            android:onClick="openStatistics"/>
     </LinearLayout>
 </RelativeLayout>
