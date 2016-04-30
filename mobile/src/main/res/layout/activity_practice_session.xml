@@ -14,7 +14,16 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="Start Shot"
         android:id="@+id/button9"
         android:layout_weight=".15"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_weight=".85"
+        android:layout_height="0dp"
+        android:id="@+id/listView"
+        android:scrollbars="vertical"/>
+
+
 </LinearLayout>
