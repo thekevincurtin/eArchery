@@ -4,4 +4,6 @@
     <string name="title_activity_initial_training">Initial Training</string>
     <string name="title_activity_practice_session">Practice Session</string>
     <string name="title_activity_statistics">Statistics</string>
+    <string name="title_activity_glove_setup">Glove Setup</string>
+    <string name="glove_status">Glove Status</string>
 </resources>
